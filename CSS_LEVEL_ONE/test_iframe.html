@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS BASICS</title>
+        <link rel="stylesheet" href="Part3_master.css">
+    </head>
+    <body>
+        <!-- <h1>TEST IFRAME --- </h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xBQzqUfz24s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+        <h1>TEST EMBED --- </h1>
+        <embed id="myIframe" src="http://185.232.181.186:88"></embed>
+        
+        <script>
+            var myIframe = document.getElementById('myIframe');
+            // window.addEventListener('message', function(event) { 
+            // // IMPORTANT: Check the origin of the data! 
+            // if (~event.origin.indexOf('http://yoursite.com')) { 
+            //     // The data has been sent from your site 
+
+            //     // The data sent with postMessage is stored in event.data 
+            //     console.log(event.data); 
+            // } else { 
+            //     // The data hasn't been sent from your site! 
+            //     // Be careful! Do not use it. 
+            //     return; 
+            // } 
+            // }); 
+
+            myIframe.addEventListener("load", function() {
+                // this.contentWindow.document.notesform.ID_client.value = Client;
+                content = this.contentWindow.document;
+                console.log(content)
+            });
+        </script>
+    </body>
+
+</html>

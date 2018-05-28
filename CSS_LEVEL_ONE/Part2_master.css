@@ -1,0 +1,15 @@
+/*selected tag{
+    property: value;
+}*/
+
+body{
+    /* background-color: gray; */
+    background:  url(https://www.darpa.mil/DDM_Gallery/vtol-xplane-619-316.jpg);
+}
+
+div{
+    background-color: blue;
+    border-color: red;
+    border-width: 10px;
+    border-style: dotted;
+}

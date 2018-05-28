@@ -1,0 +1,31 @@
+/*selected tag{
+    property: value;
+}*/
+h1{
+    font-family: "Arial";
+}
+
+p{
+    font-family: monospace;
+}
+
+/* 1em = 16px; */
+
+
+body{
+    font-size: 20px;
+}
+
+#two{
+    font-size: 1.5em;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    text-orientation: sideways;
+}

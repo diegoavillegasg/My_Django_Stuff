@@ -1,0 +1,39 @@
+/*selected tag{
+    property: value;
+}*/
+
+.firstDiv{
+    color: blue;
+}
+
+
+.secondDiv{
+    color: green;
+}
+
+div{
+    color: red;
+}
+
+#singledout{
+    color: gray;
+    text-decoration: line-through;
+}
+
+/* To specify ul that is inmediately after an h3 */
+h3 + ul{
+    border: 4px dotted purple;
+}
+
+li a{
+    color: red;
+}
+
+li a[href="www.npr.org"]{
+    color: blue;
+    border: 5px solid orange;
+}
+/* the asterisk override all other things. 
+*{
+    color: black;
+} */
