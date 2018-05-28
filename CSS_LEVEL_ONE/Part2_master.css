@@ -8,8 +8,8 @@ body{
 }
 
 div{
-    background-color: blue;
+    background-color: green;
     border-color: red;
-    border-width: 10px;
+    border-width: 1px;
     border-style: dotted;
 }
